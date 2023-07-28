@@ -1,0 +1,91 @@
+@media (min-width: 992px) {
+  .modal-xl {
+    width: 900px;
+  }
+}
+
+/* @media (min-width: 768px) {
+  .modal-dialog {
+    width: 600px;
+    margin: 30px auto;
+  }
+} */
+
+.display {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  color: black;
+}
+
+.marker {
+  /* position: absolute;
+  top: -10px;
+  left: 46.5%;
+  display: block;
+  margin: auto;
+  max-width: 80px;
+  height: auto;
+  z-index: 2; */
+  max-width: 80px;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  top: 35px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 2;
+}
+
+.wheel {
+  margin: auto;
+  max-width: 500px;
+  height: auto;
+}
+
+.spinButton {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  width: 300px;
+  margin: 40px auto;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.spinButton:hover {
+  border-radius: 12px;
+  opacity: 1;
+  transform: translate(0, -5%);
+  box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.3);
+}
+
+.spinButton:active {
+  transform: scale(0.8);
+}
+
+.modalButton {
+  display: none;
+  margin: auto;
+
+}
+
+.blur {
+  animation: blur 10s;
+}
+
+@keyframes blur {
+  0% {
+    filter: blur(1.5px);
+  }
+  80% {
+    filter: blur(1.5px);
+  }
+  100% {
+    filter: blur(0px);
+  }
+}
